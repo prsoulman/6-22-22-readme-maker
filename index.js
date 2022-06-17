@@ -6,18 +6,14 @@ inquirer
   //name, location, bio, github url, linked url
     {
       type: 'input',
-      message: 'What is your name?',
-      name: 'name',
+      message: 'What is the project Description?',
+      name: 'project',
     },
     {
-      type: 'input',
-      message: 'Where are you lcated?',
-      name: 'location',
-    },
-    {
-      type: 'input',
-      message: 'Write a short bio.',
-      name: 'bio',
+      type: 'list',
+      message: 'What are the technologies used?',
+      name: 'technologies',
+      choices: ['HTML', 'CSS', 'JavaScript', 'bootstrap', 'jQuery', 'Serverside API', 'MySQL', 'NoSQL', 'Express.js', 'React.js', 'Node.js', 'MongoDB', 'MySQL', 'Git', 'Python', 'Java', 'C#','AWS']
     },
     {
         type: 'input',
@@ -32,10 +28,10 @@ inquirer
 ])
 
 .then((data) => {
-    const filename = `${data.name.toLowerCase().split(' ').join('')}.html`;
+    const filename = `${data.name.toLowerCase().split(' ').join('')}.md`;
 
 
-    const bioHTML = `<!DOCTYPE html>
+    const templateMd = `<!DOCTYPE html>
     <html lang="en-US">
     <head>
       <meta charset="UTF-8">
@@ -54,9 +50,9 @@ inquirer
     </body>
     </html>`;
 
-    console.log(bioHTML)
+    console.log(templateMd)
 
-    fs.writeFile(filename, bioHTML, (err) =>
+    fs.writeFile(filename, templateMdL, (err) =>
       err ? console.log(err) : console.log('Success!')
     );
   });
