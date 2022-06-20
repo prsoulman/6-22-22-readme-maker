@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "inquirer": "^9.0.0"
+  },
+  "name": "6-22-22-readme-maker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prsoulman/6-22-22-readme-maker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prsoulman/6-22-22-readme-maker/issues"
+  },
+  "homepage": "https://github.com/prsoulman/6-22-22-readme-maker#readme"
+}
