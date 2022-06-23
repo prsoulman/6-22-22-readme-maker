@@ -1,12 +1,9 @@
 {
-  "dependencies": {
-    "inquirer": "^9.0.0"
-  },
   "name": "6-22-22-readme-maker",
-  "description": "",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/prsoulman/6-22-22-readme-maker/issues"
   },
-  "homepage": "https://github.com/prsoulman/6-22-22-readme-maker#readme"
+  "homepage": "https://github.com/prsoulman/6-22-22-readme-maker#readme",
+  "dependencies": {
+    "inquirer": "^9.0.0"
+  }
 }
