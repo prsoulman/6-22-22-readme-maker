@@ -47,6 +47,18 @@ inquirer
       message: 'Please write any test for this project',
       name: 'tests',
     },
+    {
+      type: 'input',
+      message: 'Please put your relative path for your screenshot',
+      name: 'screenshot',
+    },
+    {
+      type: 'input',
+      message: 'Describe your screenshot?',
+      name: 'alt',
+    },
+    
+    
 ])
 
 .then((data) => {
