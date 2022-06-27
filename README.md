@@ -16,7 +16,10 @@ NA
 ##Tests
 NA
 
-![screenshot of readme maker](./Screen%Shot%2022-06-26%at%8.27.54%PM.png)
+![screenshotofreadmemaker](./6-22-22-readme-maker/screenshot.png)
 
 
-![video of readme maker2](./Untitled_%Jun%26,%2022%8_35%PM.gif)
+![video of readme maker2](./screenshot2.gif)
+
+
+[![Watch the video](./screenshot2.gif)](https://youtu.be/IyZc7j8iV6c)
