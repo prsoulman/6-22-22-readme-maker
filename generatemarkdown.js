@@ -17,8 +17,21 @@ function renderTech (techArray) {
 function generatemarkdown (data) {
 return ` # ${data.project}
 ${createLicenseBadge(data.license)}
-## tech 
-${renderTech(data.technologies)}    `
+## Technologies 
+${renderTech(data.technologies)}   
+
+## Description
+${data.project}
+
+##Installation
+${data.install}
+##Contributors
+${data.contributors}
+##Tests
+${data.tests}
+
+
+`
 }
 
 

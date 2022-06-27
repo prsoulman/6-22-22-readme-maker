@@ -25,14 +25,28 @@ inquirer
         type: 'input',
         message: 'What is your linkedin url?',
         name: 'linkedin',
-    }
-    ,
+    },
     {
         type: 'list',
         name: 'license',
         message: 'Please Select an Applicable License',
         choices: ['MIT', 'Apache 2.0', 'GPL', 'BSD'],
-    }
+    },
+    {
+      type: 'input',
+      message: 'How do you install this Project?',
+      name: 'install',
+    },
+    {
+      type: 'input',
+      message: 'Please put any other contributors?',
+      name: 'contributors',
+    },
+    {
+      type: 'input',
+      message: 'Please write any test for this project',
+      name: 'tests',
+    },
 ])
 
 .then((data) => {
