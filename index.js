@@ -36,11 +36,10 @@ inquirer
 ])
 
 .then((data) => {
-    
-
+  const name = [];
     console.log(data);
-
-    fs.writeFile(path.join(process.cwd(), '/dist/README.md'), generatemarkdown(data), (err) =>
+    //console.log('project')
+    fs.writeFile(path.join(process.cwd(), './output/README.md'), generatemarkdown(data), (err) =>
       err ? console.log(err) : console.log('Success!')
     );
   });
