@@ -16,7 +16,7 @@ NA
 ##Tests
 NA
 
-![screenshotofreadmemaker](./6-22-22-readme-maker/screenshot.png)
+![screenshotofreadmemaker](./screenshot.png)
 
 
 ![video of readme maker2](./screenshot2.gif)
